@@ -1,0 +1,27 @@
+{
+  "name": "my-blockchain",
+  "version": "1.0.0",
+  "description": "Test client for the sample blockchain using the LotionJS Framework & Tendermint consensus.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "cd ./dist && node index.js"
+  },
+  "keywords": [
+    "blockchain",
+    "lotion",
+    "lotionjs",
+    "tendermint"
+  ],
+  "author": "Ralph Greschner <ralph.greschner@gmail.com> (http://www.ralph-greschner.de)",
+  "license": "MIT",
+  "dependencies": {
+    "lotion": "0.2.3",
+    "pino": "5.8.0",
+    "pino-pretty": "2.2.3",
+    "rxjs": "6.3.3"
+  },
+  "devDependencies": {
+    "typescript": "3.1.6"
+  }
+}
